@@ -1,0 +1,21 @@
+{
+  "name": "react-e-shop-backend",
+  "version": "1.0.0",
+  "description": "backend React-E-Shop",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
+    "graphql-yoga": "^1.18.3",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.13"
+  }
+}
