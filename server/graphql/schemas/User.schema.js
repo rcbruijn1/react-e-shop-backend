@@ -1,6 +1,6 @@
 const userSchema = 
 
-`type Query {
+`extend type Query {
     getUser(id: ID!): User
     getUsers: [User]
   }
@@ -10,7 +10,7 @@ const userSchema =
       username: String!
       password: String!
   }
-  type Mutation {
+  extend type Mutation {
       addUser(fullname: String!, username: String!, password: String!): User!,
       deleteUser(id: ID!): String
   }`;

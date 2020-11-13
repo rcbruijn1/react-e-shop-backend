@@ -4,7 +4,7 @@ const userResolvers = {
     Query: {
       getUsers: () => User.find(),
       getUser: async (_,{id}) => {
-        var result = await User.findById(id);
+        const result = await User.findById(id);
         return result;
     }
 },
